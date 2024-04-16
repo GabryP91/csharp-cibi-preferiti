@@ -35,15 +35,16 @@ namespace csharp_cibi_preferiti
             //Se questo indice è pari
             if (val % 2 == 0)
             {
-                //Stampo il valore corrispondente
-                Console.WriteLine($"\nL'elemento centrale sarà: {MioArray[val]}\n");
+                //Stampo il valore corrispondente e il precedente
+                Console.WriteLine($"\nGli elementi centrale saranno: {MioArray[val - 1]} e {MioArray[val]} \n");
+                
             }
 
             //altrimenti
             else
             {
-                //Stampo il valore corrispondente e il precedente
-                Console.WriteLine($"\nGli elementi centrale saranno: {MioArray[val - 1]} e {MioArray[val]} \n");
+                //Stampo il valore corrispondente
+                Console.WriteLine($"\nL'elemento centrale sarà: {MioArray[val]}\n");
             }
 
             Console.ReadKey();
