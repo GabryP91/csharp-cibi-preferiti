@@ -39,8 +39,6 @@ namespace csharp_cibi_preferiti
                 Console.WriteLine($"\nGli elementi centrale saranno: {MioArray[val - 1]} e {MioArray[val]} \n");
             }
 
-            Console.WriteLine($"\nok");
-
             Console.ReadKey();
         }
     }
