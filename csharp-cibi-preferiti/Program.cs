@@ -11,7 +11,7 @@ namespace csharp_cibi_preferiti
         static void Main(string[] args)
         {
             //Creo e inizializzo mio array di elementi
-            string[] MioArray = { "pizza", "mandarino", "cicoria", "tonno", "bistecca di manzo", "peperone", "carota", "mela" };
+            string[] MioArray = { "pizza", "mandarino", "cicoria", "tonno", "bistecca di manzo", "peperone", "carota"};
 
             //Stampo l'unghezza effettiva array
             Console.WriteLine($"\n La Lunghezza dell'array è: {MioArray.Length}\n");
@@ -24,7 +24,7 @@ namespace csharp_cibi_preferiti
             }
 
             //Stampo il valore in posizione 0
-            Console.WriteLine($"\n Il valore in posizione 0 è: {MioArray[0]}\n");
+            Console.WriteLine($"\n Il valore in posizione 1 è: {MioArray[0]}\n");
 
             //Stampo il valore in ultima posizoione
             Console.WriteLine($"\n Il valore in ultima posizione è: {MioArray[MioArray.Length - 1]}\n");
