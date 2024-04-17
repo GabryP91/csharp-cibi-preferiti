@@ -20,7 +20,7 @@ namespace csharp_cibi_preferiti
             for (int i = 0; i < MioArray.Length; i++)
             {
                 //per ogni posizione dell'array stampo il valore corrispondente
-                Console.WriteLine($" Il valore in posizione {i} è: {MioArray[i]}\n");
+                Console.WriteLine($" Il valore in posizione {i+1} è: {MioArray[i]}\n");
             }
 
             //Stampo il valore in posizione 0
@@ -32,8 +32,8 @@ namespace csharp_cibi_preferiti
             //ottengo indice medio del mio array
             int val = MioArray.Length / 2;
 
-            //Se questo indice è pari
-            if (val % 2 == 0)
+            //Se il mio array ha un lunghezza pari
+            if (MioArray.Length % 2 == 0)
             {
                 //Stampo il valore corrispondente e il precedente
                 Console.WriteLine($"\n Gli elementi centrale saranno: {MioArray[val - 1]} e {MioArray[val]} \n");
